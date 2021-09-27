@@ -1,22 +1,15 @@
-import logo from './logo.svg';
+import logoBack from './logo_and_back.svg';
+import redBackground from './red_back.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="wem-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="background-graphics">
+          <img src={redBackground} className="red-back" alt="logo" />
+          <img src={logoBack} className="logo-back" alt="logo" />
+        </div>
       </header>
     </div>
   );

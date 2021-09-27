@@ -7,8 +7,22 @@
   pointer-events: none;
 }
 
+.red-back {
+  height: 400vh;
+  position: absolute;
+  top: -200vh;
+  left: -275vh;
+}
+
+.logo-back {
+  height: 400vh;
+  position: absolute;
+  top: -180vh;
+  left: -196vh;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: pink;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
