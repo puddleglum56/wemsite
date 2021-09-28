@@ -1,3 +1,43 @@
+.background-graphics {
+  transform-origin: -75vh -100vh
+}
+
+.underline {
+  height: 1vh;
+  width: 6vw;
+  background-color: white;
+  margin-top: 0.5vh;
+  margin-left: 2vw;
+}
+
+.Menu-z5 {
+  z-index: 5;
+  position: absolute;
+  transform: rotateZ(45deg);
+  top: 65vh;
+  left: 25vw;
+  font-size: 4vh;
+  padding-bottom: 3vh;
+  font-weight: bold;
+}
+
+.Menu-z0 {
+  z-index: 0;
+  position: absolute;
+  transform: rotateZ(45deg);
+  top: 65vh;
+  left: 25vw;
+  font-size: 4vh;
+  padding-bottom: 3vh;
+  font-weight: bold;
+}
+
+.Menu-item {
+  display: inline;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
 .App {
   text-align: center;
 }
@@ -10,15 +50,15 @@
 .red-back {
   height: 400vh;
   position: absolute;
-  top: -200vh;
+  top: -141vh;
   left: -275vh;
 }
 
 .logo-back {
   height: 400vh;
   position: absolute;
-  top: -180vh;
-  left: -196vh;
+  top: -222vh;
+  left: -297vh;
 }
 
 .App-header {
