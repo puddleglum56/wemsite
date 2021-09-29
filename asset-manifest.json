@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wemsite/static/css/main.fb511d2e.chunk.css",
-    "main.js": "/wemsite/static/js/main.e0387f8f.chunk.js",
-    "main.js.map": "/wemsite/static/js/main.e0387f8f.chunk.js.map",
+    "main.css": "/wemsite/static/css/main.e1d93e2e.chunk.css",
+    "main.js": "/wemsite/static/js/main.7b87406a.chunk.js",
+    "main.js.map": "/wemsite/static/js/main.7b87406a.chunk.js.map",
     "runtime-main.js": "/wemsite/static/js/runtime-main.38b1904e.js",
     "runtime-main.js.map": "/wemsite/static/js/runtime-main.38b1904e.js.map",
     "static/js/2.5197ab1f.chunk.js": "/wemsite/static/js/2.5197ab1f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.92000303.chunk.js": "/wemsite/static/js/3.92000303.chunk.js",
     "static/js/3.92000303.chunk.js.map": "/wemsite/static/js/3.92000303.chunk.js.map",
     "index.html": "/wemsite/index.html",
-    "static/css/main.fb511d2e.chunk.css.map": "/wemsite/static/css/main.fb511d2e.chunk.css.map",
+    "static/css/main.e1d93e2e.chunk.css.map": "/wemsite/static/css/main.e1d93e2e.chunk.css.map",
     "static/js/2.5197ab1f.chunk.js.LICENSE.txt": "/wemsite/static/js/2.5197ab1f.chunk.js.LICENSE.txt",
     "static/media/arrow_back_ios_white_24dp.dee96783.svg": "/wemsite/static/media/arrow_back_ios_white_24dp.dee96783.svg",
     "static/media/logo_and_back.0480689c.svg": "/wemsite/static/media/logo_and_back.0480689c.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.38b1904e.js",
     "static/js/2.5197ab1f.chunk.js",
-    "static/css/main.fb511d2e.chunk.css",
-    "static/js/main.e0387f8f.chunk.js"
+    "static/css/main.e1d93e2e.chunk.css",
+    "static/js/main.7b87406a.chunk.js"
   ]
 }
