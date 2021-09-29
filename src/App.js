@@ -70,7 +70,7 @@ function App() {
         </animated.div>
         <animated.div style={rotateProps} className="background-graphics">
           <BackButton />
-          <div className="Page-title"> {hoveredMenuItem.toUpperCase()} </div>
+          <div className={"Page-title-" + hoveredMenuItem}> {hoveredMenuItem.toUpperCase()} </div>
           <img src={redBackground} className="red-back" alt="" />
           <animated.div style={slideProps}> 
             <img src={logoBack} className="logo-back" alt="" />

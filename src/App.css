@@ -10,15 +10,36 @@
   margin-left: 2vw;
 }
 
-.Page-title {
+.Page-title-about {
   z-index: 5;
   position: absolute;
   top: -70vh;
   left: -63vw;
   font-size: 5vh;
   font-weight: bold;
+  transform: rotateZ(45deg);
+}
+
+.Page-title-projects {
+  z-index: 5;
+  position: absolute;
+  top: -66vh;
+  left: -63vw;
+  font-size: 5vh;
+  font-weight: bold;
   transform: rotateZ(45deg)
 }
+
+.Page-title-contact {
+  z-index: 5;
+  position: absolute;
+  top: -69vh;
+  left: -64vw;
+  font-size: 5vh;
+  font-weight: bold;
+  transform: rotateZ(45deg)
+}
+
 
 .Menu-z5 {
   z-index: 5;
