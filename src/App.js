@@ -1,11 +1,11 @@
 import { animated, useChain, useSpring, useSpringRef } from 'react-spring'
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleRotated } from './redux/rotatedSlice';
-import { setHoveredMenuItem } from './redux/hoveredMenuItemSlice';
 import { setAnimating } from './redux/animatingSlice';
 import backIcon from './arrow_back_ios_white_24dp.svg'
 import logoBack from './logo_and_back.svg';
 import redBackground from './red_back.svg';
+import MenuItem from './MenuItem';
 import './App.css';
 
 function App() {
@@ -64,9 +64,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <animated.div style={disappearProps} className={(rotated || animating) ? "Menu-z0" : "Menu-z5"} >
-          <div className="Menu-item" onClick={() => dispatch(toggleRotated())} onMouseEnter={() => dispatch(setHoveredMenuItem('about'))}> ABOUT </div>
-          <div className="Menu-item" onClick={() => dispatch(toggleRotated())} onMouseEnter={() => dispatch(setHoveredMenuItem('projects'))}> PROJECTS </div>
-          <div className="Menu-item" onClick={() => dispatch(toggleRotated())} onMouseEnter={() => dispatch(setHoveredMenuItem('contact'))}> CONTACT </div>
+          <MenuItem item='about' />
+          <MenuItem item='projects' />
+          <MenuItem item='contact' />
           <animated.div style={underlineProps} className="underline"></animated.div>
         </animated.div>
         <animated.div style={rotateProps} className="background-graphics">
