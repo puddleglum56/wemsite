@@ -1,0 +1,23 @@
+.back-button {
+  position: absolute;
+  height: 8vh;
+  top: -80vh;
+  left: -140vh;
+  z-index: 6;
+  transform: rotateZ(45deg);
+
+  @media (max-width: 1920px){
+    top: -66vh; 
+    left: -71vw;
+
+    @media (max-width: 1540px) {
+      top: -80vh;
+      left: -140vh;
+
+      @media (max-width: 1370px) {
+        top: -66vh;
+        left: -71vw;
+      }
+    }
+  }
+}

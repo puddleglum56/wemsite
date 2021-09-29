@@ -5,7 +5,7 @@ import logoBack from './resources/logo_and_back.svg';
 import redBackground from './resources/red_back.svg';
 import MenuItem from './components/menu-item/MenuItem';
 import BackButton from './components/back-button/BackButton';
-import './App.css';
+import './App.scss';
 
 function App() {
 

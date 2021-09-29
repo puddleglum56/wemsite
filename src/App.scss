@@ -18,7 +18,24 @@
   font-size: 5vh;
   font-weight: bold;
   transform: rotateZ(45deg);
+
+  @media (max-width: 1920px){
+    top: -53vh; 
+    left: -66vw;
+
+    @media (max-width: 1540px) {
+      top: -70vh;
+      left: -63vw;
+
+      @media (max-width: 1370px) {
+        top: -53vh;
+        left: -66vw;
+      }
+    }
+  }
 }
+
+
 
 .Page-title-projects {
   z-index: 5;
@@ -27,7 +44,22 @@
   left: -63vw;
   font-size: 5vh;
   font-weight: bold;
-  transform: rotateZ(45deg)
+  transform: rotateZ(45deg);
+
+  @media (max-width: 1920px){
+    top: -51vh; 
+    left: -67vw;
+
+    @media (max-width: 1540px) {
+      top: -66vh;
+      left: -63vw;
+
+      @media (max-width: 1370px) {
+        top: -51vh;
+        left: -67vw;
+      }
+    }
+  }
 }
 
 .Page-title-contact {
@@ -37,9 +69,23 @@
   left: -64vw;
   font-size: 5vh;
   font-weight: bold;
-  transform: rotateZ(45deg)
-}
+  transform: rotateZ(45deg);
 
+  @media (max-width: 1920px){
+    top: -55vh; 
+    left: -69vw;
+
+    @media (max-width: 1540px) {
+      top: -69vh;
+      left: -64vw;
+
+      @media (max-width: 1370px) {
+        top: -55vh;
+        left: -69vw;
+      }
+    }
+  }
+}
 
 .Menu-z5 {
   z-index: 5;
@@ -77,6 +123,18 @@
   position: absolute;
   top: -141vh;
   left: -275vh;
+
+  @media (max-width: 1920px){
+    top: -147vh;
+
+    @media (max-width: 1540px) {
+      top: -141vh;
+
+      @media (max-width: 1370px) {
+        top: -147vh;
+      }
+    }
+  }
 }
 
 .logo-back {
@@ -84,6 +142,18 @@
   position: absolute;
   top: -222vh;
   left: -297vh;
+
+  @media (max-width: 1920px){
+    left: -291vh;
+
+    @media (max-width: 1540px) {
+      left: -297vh;
+
+      @media (max-width: 1370px) {
+        left: -291vh;
+      }
+    }
+  }
 }
 
 .App-header {

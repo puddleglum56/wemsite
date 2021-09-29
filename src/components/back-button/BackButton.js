@@ -1,7 +1,7 @@
 import { toggleRotated } from '../../redux/rotatedSlice';
 import backIcon from '../../resources/arrow_back_ios_white_24dp.svg'
 import { useDispatch } from 'react-redux';
-import './BackButton.css';
+import './BackButton.scss';
 
 function BackButton() {
 
