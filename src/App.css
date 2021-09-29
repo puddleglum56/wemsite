@@ -1,12 +1,3 @@
-.back-button {
-  position: absolute;
-  height: 8vh;
-  top: -80vh;
-  left: -140vh;
-  z-index: 6;
-  transform: rotateZ(45deg);
-}
-
 .background-graphics {
   transform-origin: -75vh -100vh
 }
@@ -49,12 +40,6 @@
   font-size: 4vh;
   padding-bottom: 3vh;
   font-weight: bold;
-}
-
-.Menu-item {
-  display: inline;
-  padding-right: 2vw;
-  padding-left: 2vw;
 }
 
 .App {

@@ -1,11 +1,10 @@
 import { animated, useChain, useSpring, useSpringRef } from 'react-spring'
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleRotated } from './redux/rotatedSlice';
 import { setAnimating } from './redux/animatingSlice';
-import backIcon from './arrow_back_ios_white_24dp.svg'
-import logoBack from './logo_and_back.svg';
-import redBackground from './red_back.svg';
-import MenuItem from './MenuItem';
+import logoBack from './resources/logo_and_back.svg';
+import redBackground from './resources/red_back.svg';
+import MenuItem from './components/menu-item/MenuItem';
+import BackButton from './components/back-button/BackButton';
 import './App.css';
 
 function App() {
@@ -70,7 +69,7 @@ function App() {
           <animated.div style={underlineProps} className="underline"></animated.div>
         </animated.div>
         <animated.div style={rotateProps} className="background-graphics">
-          <img src={backIcon} onClick={() => dispatch(toggleRotated())} className="back-button" alt="" />
+          <BackButton />
           <div className="Page-title"> {hoveredMenuItem.toUpperCase()} </div>
           <img src={redBackground} className="red-back" alt="" />
           <animated.div style={slideProps}> 

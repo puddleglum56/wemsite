@@ -1,0 +1,8 @@
+.back-button {
+  position: absolute;
+  height: 8vh;
+  top: -80vh;
+  left: -140vh;
+  z-index: 6;
+  transform: rotateZ(45deg);
+}

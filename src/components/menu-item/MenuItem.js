@@ -1,6 +1,6 @@
 import {  useDispatch } from 'react-redux';
-import { toggleRotated } from './redux/rotatedSlice';
-import { setHoveredMenuItem } from './redux/hoveredMenuItemSlice';
+import { toggleRotated } from '../../redux/rotatedSlice';
+import { setHoveredMenuItem } from '../../redux/hoveredMenuItemSlice';
 import './MenuItem.css';
 
 function MenuItem(props) {
